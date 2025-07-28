@@ -1,8 +1,10 @@
 
 import qrcode
+from PIL import Image, ImageDraw, ImageFont
 
 # Replace this with your website URL
 url = "https://docs.google.com/forms/d/e/1FAIpQLSe0Y26rQcz53HGRZ6jMItd1sBG5yGLUGpPY_KsFyPnUIRpP-g/viewform?usp=dialog"
+# title_text = ""
 
 # Generate QR code
 qr = qrcode.make(url)
